@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Payoo</title>
+    <!-- daisy and tailwind -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="picture/icon.png" type="image/x-icon">
 </head>
 
 <body>
@@ -19,7 +22,7 @@
                     <!-- Available Balance -->
                     <div class="stats shadow">
                         <div class="stat">
-                            <div class="stat-value">89,400</div>
+                            <div id="current-balance" class="stat-value">9400</div>
                             <div class="stat-desc">Available Balance</div>
                         </div>
                     </div>
@@ -37,7 +40,7 @@
                                     <label class="label">
                                         <span class="label-text font-medium">Amount</span>
                                     </label>
-                                    <input type="text" placeholder="Enter Amount" class="input input-bordered" required />
+                                    <input id="input-money" type="text" placeholder="Enter Amount" class="input input-bordered" required />
                                 </div>
                                 <div class="form-control">
                                     <label class="label">
