@@ -22,7 +22,7 @@ document.getElementById("add-btn").addEventListener("click", function (event) {
 
     //                 <------------- Add added money to main balance ------------>
     const newBalance = addMoneyNumber + currentBalanceNumber;
-    // update to main balance display:
+    // update to main balance in the UI/DOM:
     document.getElementById("current-balance").innerText = newBalance;
     // clear input field after button click:
     document.getElementById("input-pin").value = "";
