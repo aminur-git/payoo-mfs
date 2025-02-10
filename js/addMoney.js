@@ -4,7 +4,7 @@ document
         event.preventDefault();
         const getAmmount = parseFloat(document.getElementById("input-money").value);
         const getPin = parseFloat(document.getElementById("input-pin").value);
-        if (getPin === 11 && typeof getPin === Number) {
+        if (getPin === 11 ) {
             const currentBalance = parseFloat(
                 document.getElementById("current-balance").innerText
             );

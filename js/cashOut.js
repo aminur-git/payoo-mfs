@@ -24,3 +24,5 @@ document
       document.getElementById("input-cashout-pin").value = "";
     }
   });
+
+  
